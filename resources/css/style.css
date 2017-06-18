@@ -1,0 +1,33 @@
+.header{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.header span{
+  padding: 10px 20px;
+}
+
+.logo{
+  color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.navigation {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.navigation a{
+  color: black;
+}
